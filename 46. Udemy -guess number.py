@@ -1,5 +1,10 @@
 import random
-r = random.randint(1, 100)  # 自動生成一個數字(答案)
+start = input('請決定起始數字:')
+end = input('請決定結束數字:')
+start = int(start)
+end = int(end)
+
+r = random.randint(start, end)  # 自動生成一個數字(答案)
 count = 0
 
 while True:
